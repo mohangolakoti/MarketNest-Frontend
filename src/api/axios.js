@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getStoredAccessToken, setStoredAccessToken } from '../utils/tokenStorage';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://marketnest-backend-4p8r.onrender.com/api';
 
 let accessToken = getStoredAccessToken();
 let isRefreshing = false;
